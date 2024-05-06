@@ -1,0 +1,43 @@
+.statics {
+  border-radius: 16px;
+  padding: 24px;
+  background: #1e2027;
+  width: 332px;
+  height: 80vh;
+  position: fixed;
+  right: 32px;
+  z-index: 5;
+  &CountUsers{
+    margin-top: 12px;
+  }
+  &Group{
+    display: flex;
+    gap: 16px;
+  }
+  &Heading{
+    font-size: 12px;
+    line-height: 167%;
+    color: #8c8988;
+    margin-top: 12px;
+  }
+}
+
+.headers{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+}
+
+.countUser{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+}
+
+.line{
+  width: 284px;
+  height: 1px;
+  background: #303238;
+  margin: 24px 0;
+}
+

@@ -1,0 +1,14 @@
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  max-width: calc(100vw - 370px);
+  position: relative;
+  z-index: 1;
+}
+
+.loading {
+  margin-top: 50px ;
+  margin-left: 50px;
+
+}
